@@ -1,0 +1,22 @@
+#form_container{
+    width: 50%;
+    /* height: 300px; */
+    background-color: #E1EFF5;
+    margin-top: 30px;
+    padding: 30px 30px;
+}
+
+input{
+    width: 400px;
+}
+
+.border_radius{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 200px;
+    background-color: #EF7D00;
+    color: white;
+}

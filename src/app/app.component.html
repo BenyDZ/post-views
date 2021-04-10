@@ -1,0 +1,31 @@
+<div class="container-fluid padding_right height">
+  <div class="row height">
+    <div class="bg_E1EFF5 col-3 rounded_end height">
+      <div class="mx-auto banners">
+        <img src="../assets/images/Logo-Dogital-College1.png" class="mx-auto banners" alt="digital_college_logo">
+      </div>
+      <div class="d-flex justify-content-center list-group mg_bottom_100">
+        <a href="#" class="list-group-item list-group-item-action text-center width50 bg_darkorange mg_bottom_20 rounded-pill text-white mx-auto btn-lg">Groupes</a>
+        <a routerLink="all-posts" class="list-group-item list-group-item-action text-center width50 bg_darkorange mg_bottom_20 rounded-pill text-white mx-auto btn-lg active">Publications</a>
+        <a href="#" class="list-group-item list-group-item-action text-center width50 bg_darkorange mg_bottom_20 rounded-pill text-white mx-auto btn-lg">Evénements</a>
+        <a href="#" class="list-group-item list-group-item-action text-center width50 bg_darkorange mg_bottom_20 rounded-pill text-white mx-auto btn-lg">Profil</a>
+      </div>
+    </div>
+    <div class="col-9">
+      <div class="row">
+        <div class="col-4">
+            <a routerLink="create-post" class="list-group-item list-group-item-action text-center width bg_F2F2F2 mg_bottom_20 rounded-pill text-dark mx-auto btn-lg">Créer une publication</a>
+            <h2 class="text-center">Publications</h2>  
+        </div>
+        <div class="col-8">
+            <div class="d-flex justify-content-end">
+                <img src="../../assets/images/4test-768x768.jpg" class="banners1" alt="">
+            </div>
+            <p class="d-flex justify-content-end">{{name}}</p>
+            <p class="d-flex justify-content-end">{{level}}</p>
+        </div>
+      </div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

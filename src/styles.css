@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100% !important;
+    height: 100%;
+}
+
+.height{
+    min-height: 100% !important;
+    height: 100%;
+}
+
+.rounded1{
+    border-radius:20px ;
+}
+
+.border_radius{
+    border-radius: 10px;
+}
